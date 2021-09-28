@@ -11,7 +11,7 @@ export class CreateProductDto extends Product {
     @IsOptional()
     price?: number | null;
     
-    
+    @IsOptional()
     images?: Prisma.ImageUncheckedCreateNestedManyWithoutProductInput;
 
 }
